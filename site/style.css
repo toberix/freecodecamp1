@@ -1,0 +1,17 @@
+body {
+  margin-top: 50px;
+  font-family: 'Alegreya', serif;
+  
+}
+
+.jumbotron {
+  background:#FAD8CB !important;
+}
+
+#text{
+  font-family: 'Acme', sans-serif;
+}
+
+#imgborder, .bg-info, .jumbotron{
+  border: solid;
+}
