@@ -1,5 +1,7 @@
+/* this section controls the division display */
+
 body {
-      font: 20px Montserrat, sans-serif;
+      font: 16px Montserrat, sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
   }
@@ -21,58 +23,34 @@ body {
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
-  .container-fluid {
+
+  /* This control the width and padding of each section */
+  .container-fluid, #col1, #col2 {
       padding-top: 70px;
       padding-bottom: 70px;
   }
-  .navbar {
-      padding-top: 0;
-      padding-bottom: 0;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
 
+  /* this controls the Nav section */
+  
 
+  .navbar-nav li a:hover:not(.t) {
+    background-color: #d81ac2;
+    color: white;
+}
 
-.navbar {
+.navbar, .navbar-default {
   background-color: #e4a1ec;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
+#b {
+  background-color: #4CAF50; 
 }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: #4CAF50;
-}
+/* the color and higlight of the Nav bar */
 
 
+
+/* image of the first grid */
 .me {
   display: block;
   margin: 2em auto;
@@ -81,5 +59,41 @@ li a:hover:not(.active) {
   height: 150px;
   border-radius: 50%;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+}
+
+.division1, .division2 {
+  float: left;
+  width: 50%;
+  height: 75px;
+
+}
+
+.floating-box {
+    float: left;
+    width: 50%;
+    height: 75px;
+    margin: 0;
+    
+}
+
+#col1 {
+  background-color: #111;
+  height: 500px;
+  overflow: auto;
+}
+
+#col2 {
+  background-color: #4CAF50;
+  height: 500px;
+}
+
+#pddcorect{ /*This line of code correct the container for the first grid using id selector */
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+
+#linkcorect{
+  text-decoration: none;
 }
