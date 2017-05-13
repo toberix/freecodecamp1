@@ -79,13 +79,15 @@ body {
 
 #col1 {
   background-color: #111;
-  height: 500px;
+  height: 600px;
   overflow: auto;
 }
 
 #col2 {
-  background-color: #4CAF50;
-  height: 500px;
+  /*background-color: #4CAF50;*/
+  background-image: url("toberix3.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
 }
 
 #pddcorect{ /*This line of code correct the container for the first grid using id selector */
@@ -96,4 +98,33 @@ body {
 
 #linkcorect{
   text-decoration: none;
+}
+
+/*sociial icon to control the footer section*/
+
+.foot {
+  background: #061D25;
+  padding: 30px 0;
+}
+.foot a {
+  color: #70726F;
+  font-size: 60px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.foot a:first-child {
+  border-left: 1px solid #70726F;
+}
+.foot a:hover {
+  color: white;
+}
+
+.fa{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#dev1 {
+  font-size: 20px;
 }
