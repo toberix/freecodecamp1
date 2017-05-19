@@ -1,67 +1,75 @@
-/* this section controls the division display */
+  /* this section controls the division display */
 
 body {
-      font: 16px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {
-
-    margin-bottom: 20px;}
-
-  .back1 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-
-  .back2 {
-    background-image: url("toberixsection1.jpg");
-  }
-
-  /* This control the width and padding of each section */
-  .container-fluid, #col1 {
-      padding-top: 20px;
-      padding-bottom: 70px;
-      overflow: none;
-      
-  }
-
-  /* this controls the Nav section */
-  
-
-  .navbar-nav li a:hover:not(.t) {
-    background-color: #d81ac2;
-    color: white;
+  font: 16px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
 
-.navbar, .navbar-default {
-  background-color: #00CED1 /*#e4a1ec*/;
+p {
+  font-size: 16px;
+}
+
+.margin {
+  margin-bottom: 20px;
+}
+
+.back1 {
+  background-color: #ffffff;
+  /* White */
+  color: #555555;
+}
+
+.back2 {
+  background-image: url("toberixsection1.jpg");
+}
+
+
+/* This control the width and padding of each section */
+
+.container-fluid,
+#col1 {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  overflow: none;
+}
+
+
+/* this controls the Nav section */
+
+.navbar-nav li a:hover:not(.t) {
+  background-color: #d81ac2;
+  color: white;
+}
+
+.navbar,
+.navbar-default {
+  background-color: #00CED1/*#e4a1ec*/
+  ;
 }
 
 #b {
-  background-color: #4CAF50; 
+  background-color: #4CAF50;
 }
+
 
 /* the color and higlight of the Nav bar */
 
 
-
 /* image of the first grid */
 
-.division1, .division2 {
+.division1,
+.division2 {
   float: left;
   width: 50%;
   height: 75px;
-
 }
 
 .floating-box {
-    float: left;
-    width: 50%;
-    height: 75px;
-    margin: 0;
-    
+  float: left;
+  width: 50%;
+  height: 75px;
+  margin: 0;
 }
 
 #col1 {
@@ -76,21 +84,18 @@ body {
   background-repeat: no-repeat;
   height: 600px;
   padding-top: 300px;
-
 }
 
 
 /* contact form*/
+
 #col4 {
   /*background-color: #4CAF50;*/
   background-image: url("web_Development.jpg");
   background-repeat: no-repeat;
   height: 600px;
   padding: 20px;
-
 }
-
-
 
 #col3 {
   /*background-color: #4CAF50;*/
@@ -99,15 +104,16 @@ body {
   height: 600px;
 }
 
-#pddcorect{ /*This line of code correct the container for the first grid using id selector */
+#pddcorect {
+  /*This line of code correct the container for the first grid using id selector */
   padding-top: 0;
   padding-bottom: 0;
-  
 }
 
-#linkcorect{
+#linkcorect {
   text-decoration: none;
 }
+
 
 /*sociial icon to control the footer section*/
 
@@ -115,6 +121,7 @@ body {
   background: #00CED1;
   padding: 30px 0;
 }
+
 .foot a {
   color: white;
   font-size: 60px;
@@ -136,14 +143,13 @@ body {
 
 .gplus1:hover {
   color: #dd4b39;
-
 }
 
 .git1:hover {
   color: #333;
 }
 
-.fa{
+.fa {
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -153,50 +159,59 @@ body {
   text-decoration: none;
 }
 
+
 /*contact Form*/
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
+
 /*button for project thumbnail*/
-.button { 
-    background-color: #00CED1 /*#f44336*/; /* Green */
-    border: 2px solid ;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer; 
+
+.button {
+  background-color: #00CED1/*#f44336*/
+  ;
+  /* Green */
+  border: 2px solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
+
 
 /* design to control skills */
 
@@ -210,6 +225,7 @@ input[type=submit]:hover {
   position: relative;
   z-index: 1;
 }
+
 
 /*contact form*/
 
@@ -232,6 +248,7 @@ input[type=submit]:hover {
     }
 }*/
 
+
 /*@media only screen and (max-width: 500px){
   #col2 {
     background-repeat: no-repeat;
@@ -242,24 +259,31 @@ input[type=submit]:hover {
 
 
 /* Large Devices, Wide Screens */
+
+
 /*@media only screen and (max-width : 1200px) {
 
 }*/
 
+
 /* Medium Devices, Desktops */
+
+
 /*@media only screen and (max-width : 992px) {
 
 }*/
 
+
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
 
-}
+@media only screen and (max-width: 768px) {}
 
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
 
-}
+/* Extra Small Devices, Phones */
 
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width: 480px) {}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
